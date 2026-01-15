@@ -1,0 +1,7 @@
+@switch (this.gameStatus()) { @case('playing') {
+<h2>Das Spiel läuft...</h2>
+} @case('won') {
+<h2>Gewonnen!</h2>
+} @case('lost') {
+<h2>Leider verloren. Versuche es nochmal!</h2>
+} }

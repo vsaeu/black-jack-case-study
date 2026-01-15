@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { CardBoardComponent } from "./basic-game/components/card-board/card-board.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [CardBoardComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

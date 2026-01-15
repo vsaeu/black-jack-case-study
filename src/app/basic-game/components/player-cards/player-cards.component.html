@@ -1,0 +1,9 @@
+<div class="player-cards">
+  <div class="player-cards-content">
+    <h2>Punkte: {{ pointsCounter() }}</h2>
+
+    @for (item of cardImages(); track $index) {
+    <img [src]="item" alt="Karte" />
+    }
+  </div>
+</div>

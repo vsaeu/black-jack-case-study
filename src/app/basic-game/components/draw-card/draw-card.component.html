@@ -1,0 +1,12 @@
+<div class="card-piles" (click)="drawCard()">
+  @if(showStartNewGameButton()) {
+  <div class="button-wrapper">
+    <button (click)="startNewGame()">Neues Spiel starten</button>
+  </div>
+  } @else {
+  <p>Zieh eine Karte:</p>
+  <img src="https://deckofcardsapi.com/static/img/back.png" alt="cards-back" />
+  }
+</div>
+<!-- For debugging: -->
+<!-- <pre>{{ cardsOnHand() | json }}</pre> -->
